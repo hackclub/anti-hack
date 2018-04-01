@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import Header from 'components/home/Header'
-import About from 'components/About'
 import Action from 'components/home/Action'
+import About from 'components/Anti-About'
 import Description from 'components/home/Description'
 import Footer from 'components/Footer'
 
@@ -17,8 +17,5 @@ export default () => (
     <Header />
     <About />
     <Action />
-    <Footer>
-      <Description />
-    </Footer>
   </Fragment>
 )

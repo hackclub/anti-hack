@@ -117,8 +117,7 @@ export default () => (
   <Container w={1} px={[3, 4, null, 2]} mt={[4, 5]}>
     <Container maxWidth={48} mx={0}>
       <Heading.h2 f={[4, 5]} mb={3}>
-        Hack Club is the largest community of students building the class they wish they
-        could take.
+        Anti-Hack Club is the largest community of students learning to secure their Roblox and Minecraft accounts
       </Heading.h2>
       <Text f={[3, 4]}>
         At Hack Club, every week you and 20 other students come together to

@@ -16,6 +16,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Nav from 'components/Nav'
 import Footer from 'components/Footer'
+import About from 'components/About'
 
 const One = Section.extend`
   padding: 0 !important;
@@ -122,20 +123,23 @@ export default () => (
       <Nav />
       <Box px={3} pb={[4, 5]}>
         <Heading.h1 f={[5, 6]} mt={[4, 5]}>
-          Let’s get your Hack Club started.
+          Happy April Fool's Day! 
         </Heading.h1>
+        <br />
+        <img src="https://media.giphy.com/media/J0qGeX375eoTe/giphy.gif" />
         <Heading.h2 f={[3, 4]} my={2} regular>
-          The awesome coding club at your high school is coming soon.
+          The Anti-Hack Club doesn't actually exist, but have you heard about Hack Clubs yet?
         </Heading.h2>
       </Box>
     </One>
     <CTAContainer>
-      <LargeButton.link to="/apply" inverted f={[3, 4]}>
-        Begin Your Application
+      <LargeButton.link to="#!" f={[3, 4]}>
+        But... What's a Hack Club?
       </LargeButton.link>
     </CTAContainer>
+    <About />
     <Two>
-      <Heading.h2 f={[4, 5]}>Students: apply and start your club!</Heading.h2>
+      <Heading.h2 f={[4, 5]}>How do I start a Hack Club?</Heading.h2>
       <Modules>
         <Module
           icon="assignment"
@@ -154,6 +158,7 @@ export default () => (
         />
       </Modules>
     </Two>
+    
     <Three>
       <Flex flexDirection={['column', 'row']} align="center">
         <Container maxWidth={28} align={['center', 'right']} mr={[0, 4]}>

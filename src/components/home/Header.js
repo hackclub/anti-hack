@@ -75,21 +75,18 @@ export default () => (
     <Nav style={{ position: 'absolute', top: 0 }} />
     <Container maxWidth={48} color="white" my={[5, 6]}>
       <Text f={[3, 4]} px={2} mx="auto" my={0} caps>
-        By the students, for the students.
+        Introducing the
       </Text>
       <Heading.h1 f={[6, 7]} mx="auto" mt={2} mb={3}>
-        High school coding clubs.
+        Anti-Hack Club
       </Heading.h1>
       <Text f={[3, 4]} mx="auto" m={0}>
-        Hack Club is a nonprofit network of computer science clubs where members
-        learn to code through tinkering and building projects.
+        The Anti-Hack Club is a network of passionate students learning to keep their Minecraft 
+        and Roblox accounts safe through learning the basics of cybersecurity.
       </Text>
       <Flex justify="center" align="center" mx={[-1, -2]} mt={[3, 4]}>
-        <Action href="https://finder.hackclub.com" inverted m={[1, 2]}>
-          Find <span>Nearby</span>
-        </Action>
         <Action.link to="/start" m={[1, 2]} f={[3, 4]}>
-          Start a Club »
+          Join Us Today!
         </Action.link>
       </Flex>
     </Container>

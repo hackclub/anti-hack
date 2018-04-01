@@ -83,16 +83,16 @@ const Action = LargeButton.withComponent(Link).extend`
 
 const Promo = () => (
   <PromoBox p={[3, 4, 5]}>
-    <PromoHeading f={[4, 5, 6]} m={0}>
-      Get your club started.
+    <PromoHeading f={[4, 5, 5]} m={0}>
+      Start your own Anti-Hack Club!
     </PromoHeading>
-    <Text f={[2, 4]} my={2}>
-      Build the class you wish you could take.
+    <Text f={[2, 3]} my={2}>
+      Take control of your own account security.
     </Text>
-    <Text f={[2, 4]} mb={4}>
-      Bring the movement to your school.
+    <Text f={[2, 3]} mb={4}>
+      Bring the movement to your local community.
     </Text>
-    <Action to="/start" children="Start Your Club »" />
+    <Action to="/start" children="Join Anti-Hack Club »" />
   </PromoBox>
 )
 

@@ -31,11 +31,6 @@ const Nav = ({ color = 'white', ...props }) => (
   <Base role="banner" {...props}>
     <Flag />
     <NavBar role="navigation" ml={-2} py={[1, 0]} color={color} align="center">
-      <Item to="/team" children="Team" />
-      <Item to="/donate" children="Donate" />
-      <Item to="/start" children="Start" />
-      <Item to="/workshops" children="Workshops" />
-      <Item to="/hackathons" children="Hackathons" />
     </NavBar>
   </Base>
 )
