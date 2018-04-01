@@ -240,7 +240,7 @@ export default () => (
         />
       </Modules>
       <Box align="center" mt={4}>
-        <LargeButton.link to="https://hackclub.com/apply" inverted f={[3, 4]}>
+        <LargeButton.link to="/apply" inverted f={[3, 4]}>
           Begin Your Application
         </LargeButton.link>
       </Box>
