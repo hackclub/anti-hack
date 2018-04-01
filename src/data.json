@@ -1,9 +1,9 @@
 {
-  "name": "Hack Club",
-  "title": "Hack Club: High school computer science clubs",
+  "name": "Anti-Hack Club",
+  "title": "Anti-Hack Club: Cybersecurity Community for Students",
   "description":
-    "Hack Club is a global nonprofit network of high school coding clubs where members learn to code through tinkering. Join the movement: by the students, for the students.",
-  "url": "https://hackclub.com",
+    "The Anti-Hack Club is a network of passionate students learning to keep their Minecraft and Roblox accounts safe through learning the basics of cybersecurity.",
+  "url": "https://anti.hackclub.com",
   "api": "https://api.hackclub.com",
   "twitter": "@starthackclub",
   "img": "https://hackclub.com/social.png",
@@ -17,9 +17,9 @@
   "org": {
     "@context": "http://schema.org",
     "@type": "Organization",
-    "name": "Hack Club",
-    "url": "https://hackclub.com",
-    "logo": "https://hackclub.com/social.png",
+    "name": "Anti-Hack Club",
+    "url": "https://anti.hackclub.com",
+    "logo": "https://anti.hackclub.com/social.png",
     "sameAs": [
       "https://twitter.com/starthackclub",
       "https://github.com/hackclub",
