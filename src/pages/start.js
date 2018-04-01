@@ -9,6 +9,7 @@ import {
   Button,
   LargeButton,
   Section,
+  Image,
   Link as A,
   Module
 } from '@hackclub/design-system'
@@ -101,6 +102,13 @@ const CTAContainer = Box.extend`
   }
 `
 
+const CenterImage = Image.extend`
+  margin: auto;
+    width: 50%;
+    max-width: 5em;
+    margin-top: .5em;
+`
+
 const title = 'Start Your Hack Club'
 const description =
   'Learn how to start a coding club at your high school through Hack Club. ' +
@@ -124,9 +132,9 @@ export default () => (
       <Box px={3} pb={[4, 5]}>
         <Heading.h1 f={[5, 6]} mt={[4, 5]}>
           Happy April Fool's Day! 
+          <CenterImage src="fool.gif" />
         </Heading.h1>
         <br />
-        <img src="fool.gif" />
         <Heading.h2 f={[3, 4]} my={2} regular>
           Thanks for trusting us, the Anti-Hack Club doesn't actually exist... But have you heard about Hack Club yet?
         </Heading.h2>
