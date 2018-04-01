@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { Heading, Container, LargeButton, Text } from '@hackclub/design-system'
 import Helmet from 'react-helmet'
 import Nav from 'components/Nav'
-import Footer from 'components/Footer'
+import Footer from 'components/Anti-Footer'
 
 export default () => (
   <Fragment>
