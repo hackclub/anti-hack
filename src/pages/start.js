@@ -101,7 +101,6 @@ const CTAContainer = Box.extend`
     }
   }
 `
-
 const CenterImage = Image.extend`
   margin: auto;
     width: 50%;
@@ -140,13 +139,9 @@ export default () => (
         </Heading.h2>
       </Box>
     </One>
-    <CTAContainer>
-      <LargeButton.link to="#!" f={[3, 4]} bg="success" >
-        Okay... What's a Hack Club?
-      </LargeButton.link>
-    </CTAContainer>
     <About />
     <Two>
+      Okay... What's a Hack Club?
       <Heading.h2 f={[4, 5]}>How do I start a Hack Club?</Heading.h2>
       <Modules>
         <Module

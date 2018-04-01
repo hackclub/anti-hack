@@ -100,6 +100,23 @@ const Photo = BackgroundImage.extend.attrs({ role: 'img' })`
   }
 `
 
+const PromoHeading = Heading.h2.extend`
+  background: linear-gradient(
+    48deg,
+    ${props => props.theme.colors.green[4]},
+    ${props => props.theme.colors.blue[5]},
+    ${props => props.theme.colors.blue[6]}
+  );
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: ${props => props.theme.colors.primary};
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+`
+
+
 const Action = Button.withComponent(Link).extend`
   transition: transform 0.125s ease-out;
   will-change: transform;
@@ -116,6 +133,8 @@ const Action = Button.withComponent(Link).extend`
 export default () => (
   <Container w={1} px={[3, 4, null, 2]} mt={[4, 5]}>
     <Container maxWidth={48} mx={0}>
+
+      <PromoHeading>Okay... What's a Hack Club?</PromoHeading>
       <Heading.h2 f={[4, 5]} mb={3}>
         Hack Club is the largest community of students building the class they wish they
         could take.
