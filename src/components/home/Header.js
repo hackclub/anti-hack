@@ -6,9 +6,10 @@ import {
   Box,
   Heading,
   Text,
-  LargeButton
+  LargeButton,
+  Section
 } from '@hackclub/design-system'
-import Nav from 'components/Nav'
+import Nav from 'components/Anti-Nav'
 import Animator from 'components/Animator'
 
 const Root = Box.withComponent('header').extend`
@@ -16,9 +17,8 @@ const Root = Box.withComponent('header').extend`
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: ${props => props.theme.colors.blue[8]} url('/map.svg') no-repeat;
-  background-size: cover;
-  background-position: center top;
+  background-color: rgb(41, 143, 206);
+  background: url('/pattern.svg'), linear-gradient(-32deg, rgb(45, 66, 228) 0%, rgb(41, 206, 187) 100%) repeat;
   max-width: 100%;
   overflow: hidden;
   clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 95%);
@@ -48,6 +48,7 @@ const Root = Box.withComponent('header').extend`
   }
 `
 
+
 const Action = LargeButton.extend`
   transition: transform 0.125s ease-out;
   will-change: transform;
@@ -68,7 +69,7 @@ export default () => (
     is={Root}
     data={{
       opacity: [1, 0.75],
-      transform: [{ translateY: '0px' }, { translateY: '-96px' }]
+      transform: [{ translateY: '0px' }, { translateY: '-96px' }],
     }}
     px={[0, 3]}
   >
@@ -85,7 +86,7 @@ export default () => (
         and Roblox accounts safe through learning the basics of cybersecurity.
       </Text>
       <Flex justify="center" align="center" mx={[-1, -2]} mt={[3, 4]}>
-        <Action.link to="/start" m={[1, 2]} f={[3, 4]}>
+        <Action.link to="/start" m={[1, 2]} f={[3, 4]} bg="info" color="white">
           Join Us Today!
         </Action.link>
       </Flex>

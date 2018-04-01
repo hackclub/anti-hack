@@ -58,9 +58,9 @@ const PromoBox = Box.extend`
 const PromoHeading = Heading.h2.extend`
   background: linear-gradient(
     48deg,
-    ${props => props.theme.colors.orange[4]},
-    ${props => props.theme.colors.red[5]},
-    ${props => props.theme.colors.red[6]}
+    ${props => props.theme.colors.green[4]},
+    ${props => props.theme.colors.blue[5]},
+    ${props => props.theme.colors.blue[6]}
   );
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -92,7 +92,7 @@ const Promo = () => (
     <Text f={[2, 3]} mb={4}>
       Bring the movement to your local community.
     </Text>
-    <Action to="/start" children="Join Anti-Hack Club »" />
+    <Action bg="info" to="/start" children="Join Anti-Hack Club »" />
   </PromoBox>
 )
 
@@ -173,7 +173,7 @@ export default () => (
       <BorderX is={BorderLeft} />
     </Frame>
     <Photo
-      src="/action.jpg"
+      src="/krusty_krab.png"
       alt="Group of high school students coding together"
     />
     <Promo />

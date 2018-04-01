@@ -120,104 +120,42 @@ export default () => (
         Anti-Hack Club is the largest community of students learning to secure their Roblox and Minecraft accounts
       </Heading.h2>
       <Text f={[3, 4]}>
-        At Hack Club, every week you and 20 other students come together to
-        build. Meetings are like mini-hackathons. People are working on
-        projects, you lead workshops to introduce new technologies, you and your
-        co-leads are constantly mentoring. Your members typically start with no
-        experience.
+        Every day, thousands of people are learning how to illegally break into Roblox and Minecraft accounts and
+        retrieve your game status that you spent thousands of hours on within minutes. This is not fair. 
       </Text>
     </Container>
     <Grid mt={4} mb={[4, 6]} color="white">
-      <Box bg="primary" p={[3, 4]}>
-        <Heading.h3 f={4} my={0} caps>
-          So much more than a club
-        </Heading.h3>
-        <Text f={3} my={3}>
-          Hack Clubs attend and run hackathons like{' '}
-          <Like href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
-            Hack the Fog
-          </Like>. They run summer programs like{' '}
-          <Like href="http://thecspn.com/?p=43434">Hack Camp</Like>. They
-          compete in competitions like the{' '}
-          <Like href="http://www.congressionalappchallenge.us">
-            Congressional App Challenge
-          </Like>. This is no ordinary club.
-        </Text>
-        <Action to="/meetings" inverted>
-          Learn more »
-        </Action>
-      </Box>
-      <Photo image="/about_1.jpg" />
-      <Photo image="/about_2.jpg" />
       <Box bg="info" p={[3, 4]}>
         <Heading.h3 f={4} my={0} caps>
-          The power of a network
+          Stop 'em illegal hackers!
         </Heading.h3>
-        <Modules my={3} w={1}>
-          <Module
-            icon="forum"
-            heading="Online community"
-            body="Talk to thousands of club leaders/members on Slack."
-          />
-          <Module
-            icon="chrome_reader_mode"
-            heading="Curriculum"
-            body="Dozens of tutorials for your members to make projects."
-          />
-          <Module
-            icon="voice_chat"
-            heading="Mentorship"
-            body="Talk to our team online for guidance anytime."
-          />
-          <Module
-            icon="wallpaper"
-            heading="Marketing"
-            body="Get materials and ideas for spreading your club."
-          />
-        </Modules>
+        <Text f={3} my={3}>
+          Everyday, thousands of accounts are at risk. Not only Minecraft and Roblox, your Facebook, 
+          Whatsapp, or even Harris Teeter VIC cards are being illegally accessed. 
+        </Text>
       </Box>
+      <Photo image="/anti_1.png" />
     </Grid>
     <Container maxWidth={48} mx={0} mt={5}>
       <Heading.h2 f={[4, 5]} mb={3}>
-        We think people learn best when they take control of their own
-        education.
+        An old Chinese proverb goes, "If you know yourself and your enemy, you'll never lose a battle. "
       </Heading.h2>
       <Text f={[3, 4]}>
-        Hack Club is heavily inspired by unschooling. At Hack Club, there are no
-        teachers or lectures. Your job as a club leader is to facilitate and
-        provide guidance through mentoring and the power of community.
+        
       </Text>
     </Container>
     <Grid my={[4, 5]} color="white" pb={3}>
+      <Photo image="/anti_2.png" />
       <Super p={[3, 4]}>
         <Heading.h3 f={4} my={0} caps>
-          Coding is a superpower
+          Security is key
         </Heading.h3>
         <Text f={3} my={3}>
-          Learning to code is uniquely empowering: you go from a consumer to a
-          creator. The goal of Hack Club is to help you become that creator. We
-          want a space for hacking at every high school, every week.
+          Learning to cybersecurity is uniquely empowering: you go from a victim to a
+          winner. The goal of Anti-Hack Club is to help you become that winner. We
+          want everyone to be safe when enjoying themselves online.
         </Text>
-        <Action to="/philosophy" bg="warning" inverted>
-          Our philosophy »
-        </Action>
       </Super>
-      <Photo image="/about_3.jpg" />
-      <Photo image="/about_4.jpg" />
-      <Graph p={[3, 4]}>
-        <Heading.h3 f={4} my={0} caps>
-          Grassroots and growing
-        </Heading.h3>
-        <Stats mb={2}>
-          <Stat f={7} value={stats.school_count} label="schools" />
-          <Stat f={7} value={stats.country_count} label="countries" />
-          <Stat f={7} value={stats.state_count} label="states" />
-          <Stat f={7} value={stats.approximate_members} label="members" />
-        </Stats>
-        <Action to="/team" bg="accent" inverted>
-          Our team »
-        </Action>
-      </Graph>
     </Grid>
   </Container>
 )

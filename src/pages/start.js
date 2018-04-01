@@ -126,15 +126,15 @@ export default () => (
           Happy April Fool's Day! 
         </Heading.h1>
         <br />
-        <img src="https://media.giphy.com/media/J0qGeX375eoTe/giphy.gif" />
+        <img src="fool.gif" />
         <Heading.h2 f={[3, 4]} my={2} regular>
-          The Anti-Hack Club doesn't actually exist, but have you heard about Hack Clubs yet?
+          Thanks for trusting us, the Anti-Hack Club doesn't actually exist... But have you heard about Hack Club yet?
         </Heading.h2>
       </Box>
     </One>
     <CTAContainer>
-      <LargeButton.link to="#!" f={[3, 4]}>
-        But... What's a Hack Club?
+      <LargeButton.link to="#!" f={[3, 4]} bg="success" >
+        Okay... What's a Hack Club?
       </LargeButton.link>
     </CTAContainer>
     <About />

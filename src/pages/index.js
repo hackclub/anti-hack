@@ -4,7 +4,7 @@ import Header from 'components/home/Header'
 import Action from 'components/home/Action'
 import About from 'components/Anti-About'
 import Description from 'components/home/Description'
-import Footer from 'components/Footer'
+import Footer from 'components/Anti-Footer'
 
 export default () => (
   <Fragment>
@@ -17,5 +17,8 @@ export default () => (
     <Header />
     <About />
     <Action />
+    <Footer>
+      <Description />
+    </Footer>
   </Fragment>
 )
