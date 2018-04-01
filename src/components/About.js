@@ -163,7 +163,7 @@ export default () => (
             Congressional App Challenge
           </Like>. This is no ordinary club.
         </Text>
-        <Action to="/meetings" inverted>
+        <Action to="https://hackclub.com/meetings" inverted>
           Learn more »
         </Action>
       </Box>
@@ -218,7 +218,7 @@ export default () => (
           creator. The goal of Hack Club is to help you become that creator. We
           want a space for hacking at every high school, every week.
         </Text>
-        <Action to="/philosophy" bg="warning" inverted>
+        <Action to="https://hackclub.com/philosophy" bg="warning" inverted>
           Our philosophy »
         </Action>
       </Super>
@@ -234,7 +234,7 @@ export default () => (
           <Stat f={7} value={stats.state_count} label="states" />
           <Stat f={7} value={stats.approximate_members} label="members" />
         </Stats>
-        <Action to="/team" bg="accent" inverted>
+        <Action to="https://hackclub.com/team" bg="accent" inverted>
           Our team »
         </Action>
       </Graph>
