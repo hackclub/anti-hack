@@ -15,7 +15,6 @@ import {
 } from '@hackclub/design-system'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import Nav from 'components/Nav'
 import Footer from 'components/Footer'
 import About from 'components/About'
 
@@ -127,7 +126,6 @@ export default () => (
       ]}
     />
     <One>
-      <Nav />
       <Box px={3} pb={[4, 5]}>
         <Heading.h1 f={[5, 6]} mt={[4, 5]}>
           Happy April Fool's Day! 
