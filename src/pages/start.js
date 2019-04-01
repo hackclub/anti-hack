@@ -135,7 +135,7 @@ export default () => (
         </Heading.h1>
         <br />
         <Heading.h2 f={[3, 4]} my={2} regular>
-          Thanks for trusting us, the Anti-Hack Club does not actually exist... But have you heard about Hack Club yet?
+          But have you heard about Hack Club yet?
         </Heading.h2>
       </Box>
     </One>
